@@ -1,0 +1,134 @@
+body{
+	min-width: 1160px;
+	background-color:#fff2f2 ;
+	margin: 0;
+	padding: 0;
+}
+.head-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6d757a;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.header-wrap {
+    position: relative;
+    background: #fff url(https://activity.hdslb.com/zzjs/20160608appDownload/img/pc/bg1.png) no-repeat;
+    margin: 0 auto;
+    height: 689px;
+}
+.head-img {
+    width: 100%;
+    position: absolute;
+    bottom: -500px;
+    background: url(https://activity.hdslb.com/zzjs/20160608appDownload/img/pc/bg2.png) center no-repeat;
+    height: 778px;
+    z-index: 99;
+}
+.focus-us {
+    width: 1280px;
+	position: absolute;
+	 top: 320px;
+	 left: 50%;
+	 margin-left: -640px;
+}
+.red-line {
+    display: inline-block;
+    width: 62px;
+    margin-top: 20px;
+    border: 1px solid #f25d8e;
+}
+.focus-us li {
+    display: inline-block;
+    width: 208px;
+    height: 123px;
+}
+.focus-us .grp, .focus-us .item {
+    float: left;
+}
+.focus-us .title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #6d757a;
+}
+.focus-us .text {
+    color: #6d757a;
+    margin-top: 15px;
+}
+.focus-us .text.blog {
+    font-size: 12px;
+}
+.block{
+	display: block;
+}
+.dt-btn {
+    width: 123px;
+    height: 44px;
+    position: absolute;
+    cursor: pointer;
+    background: center no-repeat;
+    background-size: 100%;
+}
+.device-type-select{
+	padding-top: 200px;
+	padding-left: 110px;
+}
+.dt-content {
+	
+    display: inline-block;
+    position: relative;
+    margin-left: 300px;
+    vertical-align: middle;
+}
+.dt-choose {
+    position: absolute;
+    top: 0;
+    left: 360px;
+    z-index: 101;
+}
+.bg-android {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/2bYsPINRb4.png);
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+.bg-iPhone {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/KvEVQCgyfe.png);
+    top: 0px;
+    left: 135px;
+}
+.bg-UWP {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/tNvArywFnF.png);
+    top: 236px;
+    left: 0px;
+}
+.bg-TV {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaea…/KwoJCY91em.png);
+    top: 177px;
+    left: 135px;
+}
+.bg-iPad {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/NIXMlIVEHv.png);
+    top: 118px;
+    left: 135px;
+}
+.bg-android-HD {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/Gar9KuTUQ6.png);
+    top: 118px;
+    left: 0;
+}
+.bg-car {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/AW2pSIYvYL.png);
+    top: 177px;
+    left: 0;
+}
+.bg-pc {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/ftnteDftrd.png);
+    top: 59px;
+    left: 0;
+}
+.bg-pc-mac {
+    background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20220518/49ddaeaba3a23f61a6d2695de40d45f0/2YxLBwdpj5.png);
+    top: 59px;
+    left: 135px;
+}

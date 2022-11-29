@@ -1,0 +1,133 @@
+.top-banner {
+    background: #00a0d8;
+    height: 86px;
+    text-align: center;
+	margin-top: 64px;
+    margin-bottom: 20px;
+}
+.title-line {
+    width: 980px;
+    height: 28px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 28px;
+    text-align: center;
+}
+.title-line .tit {
+    height: 56px;
+    line-height: 56px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 40px;
+    background: #fff;
+    text-align: center;
+}
+p[data-v-2c844fd9] {
+    margin:10px auto 48px auto;
+    width: 980px;
+    font-size: 12px;
+    color: #99a2aa;
+    text-align: center;
+    line-height: 16px;
+}
+a {
+    color: #00a1d6;
+}
+.login-box{
+	margin: 50px auto 20px;
+	width: 514px;
+	height: 254px;
+}
+.item input {
+	margin: 5px auto;
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    color: #aaa;
+    font-size: 14px;
+    padding: 10px;
+    height: 40px;
+    vertical-align: middle;
+    border-radius: 4px;
+}
+.remember {
+    margin: 20px 0;
+    color: #717171;
+    width: 410px;
+    font-size: 12px;
+}
+ .remember .remember-tool{
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+    -webkit-box-align: center;
+ }
+.remember .remember-tool>label .remember-check {
+    margin-right: 8px;
+}
+.remember span {
+    color: #bbb;
+    margin-left: 10px;
+}
+.remember .forget-password {
+    float: right;
+}
+.remember .not-checkout {
+    float: right;
+    margin-right: 10px;
+}
+.btn-box .btn-login {
+    border: 1px solid #0381aa;
+    color: #fff;
+    background-color: #00a7de;
+}
+.btn-box{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+.btn-box .btn {
+    color: #555;
+    display: inline-block;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 184px;
+    line-height: 38px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s;
+}
+.btn-box .btn-login {
+    border: 1px solid #0381aa;
+    color: #fff;
+    background-color: #00a7de;
+}
+.sns {
+    padding: 26px 0;
+    font-size: 12px;
+}
+.sns .btn {
+    color: #717171;
+    cursor: pointer;
+}
+.sns .btn:before{
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+	background-image: url("../image/QQ+weibo.png");
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.sns .btn.weixin:before{
+	background-image: url("../image/WeChat.png");
+}
+.sns .btn.qq:before {
+    background-position: 0 -41px;
+}
+.btn.weibo:before {
+    background-position: 0 0;
+}

@@ -1,0 +1,27 @@
+.t-background-image{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+#t-background-image{
+	width: 100%;
+}
+.rich-head-title{
+	color: #f69;
+}
+.act-rich-style-init2{	
+	font-size: 18px;
+	margin: 40px 60px 40px;
+	padding: 0 20px;
+}
+hr{
+	margin: 25px 0px;
+}
+.t-background-image{
+	background-image: url(https://i0.hdslb.com/bfs/activity-plat/static/20190409/7d3fbe1b994526c1fae2b51bb7f2b633/S114GfcFE.png);
+	height: 150px;
+	margin-top: 64px;
+}
+.act-rich-render-content p{
+	line-height: 2;
+}
